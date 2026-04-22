@@ -24,7 +24,7 @@ public class LoginStepDefinition {
     @Given("the user is on the login page")
     public void openLoginPage(){
         user.can(BrowseTheWeb.with(driver));
-        user.wasAbleTo(Open.url("https://the-internet.herokuapp.com/"));
+        user.wasAbleTo(Open.url("https://the-internet.herokuapp.com/login"));
 
     }
 
