@@ -1,5 +1,6 @@
 Feature: Registration Form
 
+  @register
   Scenario: Registration with valid data
 
     Given the user navigates to the registration page

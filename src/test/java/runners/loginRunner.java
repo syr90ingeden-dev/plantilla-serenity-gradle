@@ -6,8 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-       // features = "src/test/resources/features/login.feature",
-        //glue="stepdefinitions"
+        features = "src/test/resources/features/login.feature",
+        glue="stepdefinitions",
+        tags= "@valid_login"
 )
 public class loginRunner {
 }

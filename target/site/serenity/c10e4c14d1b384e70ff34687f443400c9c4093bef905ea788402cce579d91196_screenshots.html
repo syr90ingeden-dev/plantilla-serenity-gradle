@@ -128,9 +128,9 @@
             <span class="breadcrumbs">
                 <a href="index.html">Home</a>
                 > <span class="truncate-40"><a
-                    href="7b06217da50706cb2d7f0a208558184108e1787a859a16ab32c594b374931068.html">Login</a></span>
+                    href="85f0d5beae83894d200c322e3112615b303b7f66a48aac61af439fb42e8c83de.html">Registrationform</a></span>
                 > <span class="truncate-60"><a
-                    href="c03451b145994e1f5c0b428d8e296252c7bccf0c62e1b859f5fd6ff82fcbc50c.html">Login with valid credentials </a></span>
+                    href="c10e4c14d1b384e70ff34687f443400c9c4093bef905ea788402cce579d91196.html">Registration with valid data </a></span>
                 > Screenshots
             </span>
         </div>
@@ -168,7 +168,7 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
-                                    <span class="story-header-title">Login </span>
+                                    <span class="story-header-title">Registration Form </span>
                                     <span class="badge tag-badge" style="">Feature</span>
                                 </h3>
 
@@ -188,7 +188,7 @@
                             </p>
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="e1ed46eb9e43e14a961e1c64520a25d86a6f00369a9fe8b3a8caf01fc295498e.html">Valid Login
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html">Register
                                 </a>
                                 </span>
                             </p>
@@ -200,9 +200,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Login with valid credentials
+                                <span class="error-color">Registration with valid data
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -219,23 +219,50 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Invalid selector exception: invalid selector: An invalid or illegal selector was specified</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.InvalidSelectorException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.registrationform.EnterPersonalInfo.performAs(EnterPersonalInfo.java:29)<br />stepdefinitions.registrationform.RegistrationFormStepdef.enterPersonalInformation(RegistrationFormStepdef.java:35)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="0c747efc3b31bee0d9452f3a2ad8ffe94ebdb8353077e249b79aa2be372078d7.png" title=" Given the user is on the login page" width="0"/>
-                <img src="0c747efc3b31bee0d9452f3a2ad8ffe94ebdb8353077e249b79aa2be372078d7.png" title=" Sayury opens the browser at https://the-internet.herokuapp.com/login" width="0"/>
-                <img src="0c747efc3b31bee0d9452f3a2ad8ffe94ebdb8353077e249b79aa2be372078d7.png" title=" Given the user is on the login page (completed)" width="0"/>
-                <img src="9789d3e695500ae765d99a288c87722398d16baff3760869e2edcaa5df0badfc.png" title=" When the user add valid credentials" width="0"/>
-                <img src="9789d3e695500ae765d99a288c87722398d16baff3760869e2edcaa5df0badfc.png" title=" Sayury login task" width="0"/>
-                <img src="9789d3e695500ae765d99a288c87722398d16baff3760869e2edcaa5df0badfc.png" title=" Sayury enters 'tomsmith' into username" width="0"/>
-                <img src="9789d3e695500ae765d99a288c87722398d16baff3760869e2edcaa5df0badfc.png" title=" Sayury enters 'SuperSecretPassword!' into password" width="0"/>
-                <img src="4b5402cc1245ca0eeba2057c4f3d01b41736b9b1465bec47ec438ff9d4fe84bd.png" title=" Sayury enters 'SuperSecretPassword!' into password (completed)" width="0"/>
-                <img src="4b5402cc1245ca0eeba2057c4f3d01b41736b9b1465bec47ec438ff9d4fe84bd.png" title=" Sayury clicks on button" width="0"/>
-                <img src="29fb63dfbb825afdf05fdb9fca07e44631f9499a9d6bcbf06e5ea9f89ba728b4.png" title=" Sayury clicks on button (completed)" width="0"/>
-                <img src="29fb63dfbb825afdf05fdb9fca07e44631f9499a9d6bcbf06e5ea9f89ba728b4.png" title=" Sayury login task (completed)" width="0"/>
-                <img src="29fb63dfbb825afdf05fdb9fca07e44631f9499a9d6bcbf06e5ea9f89ba728b4.png" title=" When the user add valid credentials (completed)" width="0"/>
-                <img src="29fb63dfbb825afdf05fdb9fca07e44631f9499a9d6bcbf06e5ea9f89ba728b4.png" title=" Then the user should see a succesful message" width="0"/>
+                <img src="52f60931a10558e2ce62d52c3a70f4788b1e60ceba5255d875a6670654ec1f47.png" title=" Given the user navigates to the registration page" width="0"/>
+                <img src="52f60931a10558e2ce62d52c3a70f4788b1e60ceba5255d875a6670654ec1f47.png" title=" Sayury opens the browser at https://demoqa.com/automation-practice-form" width="0"/>
+                <img src="aa06f03955cf5d020be7df4a1822cd3bfc6c7747f624abd066c46bf9813e6c6d.png" title=" Given the user navigates to the registration page (completed)" width="0"/>
+                <img src="aa06f03955cf5d020be7df4a1822cd3bfc6c7747f624abd066c46bf9813e6c6d.png" title=" When the user enters personal information:
+| name | email |
+| Sayury | sb@test.com |" width="0"/>
+                <img src="aa06f03955cf5d020be7df4a1822cd3bfc6c7747f624abd066c46bf9813e6c6d.png" title=" Sayury enter personal info" width="0"/>
 
-                <img src="29fb63dfbb825afdf05fdb9fca07e44631f9499a9d6bcbf06e5ea9f89ba728b4.png" title=" Then login result: <span class='success-color'>SUCCESS</span>" width="0"/>
+                <img src="aa06f03955cf5d020be7df4a1822cd3bfc6c7747f624abd066c46bf9813e6c6d.png" title=" Sayury enters '' into name: <span class='error-color'>ERROR</span>" width="0"/>
             </div>
         </div>
 
